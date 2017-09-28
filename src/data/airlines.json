@@ -1,0 +1,217 @@
+[
+    {
+        "name": "Oceanic Airlines",
+        "routes": [
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "10:25 AM"
+                },
+                "arrival": {
+                    "icao": "YSSY",
+                    "time": "2:55 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "YSSY",
+                    "time": "7:55 PM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "4:35 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "3:11 PM"
+                },
+                "arrival": {
+                    "icao": "VABB",
+                    "time": "11:55 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "VABB",
+                    "time": "8:23 AM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "12:01 AM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "1:55 PM"
+                },
+                "arrival": {
+                    "icao": "ZBAA",
+                    "time": "6:17 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "ZBAA",
+                    "time": "8:48 AM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "6:10 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "7:04 AM"
+                },
+                "arrival": {
+                    "icao": "PHNL",
+                    "time": "10:42 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "PHNL",
+                    "time": "10:55 PM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "6:24 AM"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Windsor Airlines",
+        "routes": [
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "6:57 AM"
+                },
+                "arrival": {
+                    "icao": "YSSY",
+                    "time": "11:28 AM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "YSSY",
+                    "time": "4:12 PM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "1:21 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "EGLL",
+                    "time": "10:10 PM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "4:39 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "EGLL",
+                    "time": "1:36 PM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "7:51 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "7:22 PM"
+                },
+                "arrival": {
+                    "icao": "EGLL",
+                    "time": "10:10 AM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "10:48 PM"
+                },
+                "arrival": {
+                    "icao": "EGLL",
+                    "time": "1:47 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "2:01 PM"
+                },
+                "arrival": {
+                    "icao": "FAOR",
+                    "time": "8:54 AM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "FAOR",
+                    "time": "12:27 PM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "5:03 PM"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Atlantic International Airlines",
+        "routes": [
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "1:22 PM"
+                },
+                "arrival": {
+                    "icao": "BIKF",
+                    "time": "10:06 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "BIKF",
+                    "time": "9:41 PM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "12:25 PM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "KLAX",
+                    "time": "2:47 PM"
+                },
+                "arrival": {
+                    "icao": "EGLL",
+                    "time": "6:01 AM"
+                }
+            },
+            {
+                "departure": {
+                    "icao": "EGLL",
+                    "time": "11:02 PM"
+                },
+                "arrival": {
+                    "icao": "KLAX",
+                    "time": "4:03 PM"
+                }
+            }
+        ]
+    }
+]

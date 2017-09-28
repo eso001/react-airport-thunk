@@ -1,0 +1,83 @@
+[
+    {
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "UK",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "latitude": 51.4706001,
+        "longitude": -0.461941
+    },
+    {
+        "name": "Chhatrapati Shivaji International Airport",
+        "city": "Mumbai",
+        "country": "India",
+        "iata": "BOM",
+        "icao": "VABB",
+        "latitude": 19.0886993,
+        "longitude": 72.867897
+    },
+    {
+        "name": "O.R. Tambo International Airport",
+        "city": "Johannesburg",
+        "country": "South Africa",
+        "iata": "JNB",
+        "icao": "FAOR",
+        "latitude": -26.1392002,
+        "longitude": 28.2460003
+    },
+    {
+        "name": "Beijing Capital International Airport",
+        "city": "Beijing",
+        "country": "China",
+        "iata": "PEK",
+        "icao": "ZBAA",
+        "latitude": 40.080101,
+        "longitude": 116.5849991
+    },
+    {
+        "name": "São Paulo International Airport",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "iata": "GRU",
+        "icao": "SBGR",
+        "latitude": -23.4355564,
+        "longitude": -46.4730568
+    },
+    {
+        "name": "Honolulu International Airport",
+        "city": "Honolulu",
+        "country": "US",
+        "iata": "HNL",
+        "icao": "PHNL",
+        "latitude": 21.3187008,
+        "longitude": -157.9219971
+    },
+    {
+        "name": "Keflavik International Airport",
+        "city": "Reykjavík",
+        "country": "Iceland",
+        "iata": "KEF",
+        "icao": "BIKF",
+        "latitude": 63.9850006,
+        "longitude": -22.6056004
+    },
+    {
+        "name": "Sydney Kingsford Smith International Airport",
+        "city": "Sydney",
+        "country": "Australia",
+        "iata": "SYD",
+        "icao": "YSSY",
+        "latitude": -33.9460983,
+        "longitude": 151.177002
+    },
+    {
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "US",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "latitude": 33.9425011,
+        "longitude": -118.4079971
+    }
+]
