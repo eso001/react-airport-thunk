@@ -1,16 +1,17 @@
-export const FILTER = 'FILTER';
-export const SET_DIRECTION = 'SET_DIRECTION';
+import * as types from './types';
 
-export function filterSearch(query) {
-  return {
-    type: FILTER,
-    payload: query
-  }
+const search = query => ({type: types.FILTER, payload: query});
+
+const setDirection = direction => ({type: types.SET_DIRECTION, payload: direction});
+
+const setDirectionThunk = (direction, query) => dispatch => {
+  dispatch(setDirection(direction));
+
+  dispatch(search(query));
 }
 
-export function setDirection(direction) {
-  return {
-    type: SET_DIRECTION,
-    payload: direction,
-  }
+export default {
+  search,
+  setDirection,
+  setDirectionThunk
 }

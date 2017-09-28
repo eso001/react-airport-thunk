@@ -1,5 +1,5 @@
-import * as searchActions from './Search/action';
+import searchActions from './Search/action';
 
 export default {
-    searchActions
+  searchActions
 };

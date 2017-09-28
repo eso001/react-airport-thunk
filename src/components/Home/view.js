@@ -13,7 +13,7 @@ export default class Home extends React.Component {
       <div>
         <h1>Home</h1>
 
-        <button onClick={() => changePage('/search')}>Click me to go to search</button>
+        <button className="redirect" onClick={() => changePage('/search')}>Click me to go to search</button>
       </div>
     )
   }

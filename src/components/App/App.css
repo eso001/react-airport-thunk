@@ -103,3 +103,8 @@ h2.location {
     padding: 2em;
     text-align: center;
 }
+
+.redirect {
+  background-color: white;
+  border-radius: 7px;
+}

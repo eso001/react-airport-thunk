@@ -4,26 +4,38 @@ import React from 'react';
 import Destination from './Destination';
 import Matches from './Match';
 
-export default class Search extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            search: ''
-        };
+let initialState = {
+  search: ''
+}
 
-        this.handleChange = this.handleChange.bind(this);
-    }
+export default class Search extends React.Component {
+  constructor() {
+    super();
+    this.state = initialState;
+
+    this.handleChange = this.handleChange.bind(this);
+    this.getSearch = this.getSearch.bind(this);
+  }
+
+  componentDidMount() {
+    this.getSearch('');
+  }
 
   handleChange(e) {
     const { value } = e.target;
 
+    this.getSearch(value);
+  }
+
+  getSearch(value) {
     this.setState({ search: value });
-    this.props.filterSearch(value);
+    this.props.search(value);
   }
 
   setDirection(value) {
-    this.props.setDirection(value);
-    this.props.filterSearch(this.state.search);
+    this.props.setDirectionThunk(value, this.state.search);
+    // this.props.setDirection(value);
+    // this.props.search(this.state.search);
   }
 
   render() {
@@ -31,7 +43,7 @@ export default class Search extends React.Component {
 
     return (
       <div className="App">
-        <button onClick={() => changePage('/')}>Go Back to Home</button>
+        <button className="redirect" onClick={() => changePage('/')}>Go Back to Home</button>
 
         <header>
           <h1>Where Do You Want To Go?</h1>

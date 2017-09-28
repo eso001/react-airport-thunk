@@ -1,4 +1,4 @@
-import * as types from './action';
+import * as types from './types';
 import airlineData from '../../data/airlines.json';
 import airportData from '../../data/airports.json';
 import Helper from './helper';
